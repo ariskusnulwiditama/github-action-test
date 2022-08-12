@@ -12,3 +12,11 @@ jobs:
       - name: python Command
         run: print("selamat datang di python")
         shell: python
+  run-windows-commands:
+    runs-on: windows-latest
+    steps:
+      - name: Directory Powershell
+        run: Get-Location
+      - name: Directory Bash
+        run: pwd
+        shell: bash
