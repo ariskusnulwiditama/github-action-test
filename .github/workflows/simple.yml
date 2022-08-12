@@ -10,6 +10,5 @@ jobs:
         run: node -v
              npm -v
       - name: python Command
-        run: import platform
-             print("selamat datang di python")
+        run: print("selamat datang di python")
         shell: python
